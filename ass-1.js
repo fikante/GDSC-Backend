@@ -1,10 +1,10 @@
 //Exercise 1
-    // function starPattern(){
-    //     for(i=0; i<5; i++){
-    //         console.log("*".repeat(i+1));
-    //     }
-    // }
-    // starPattern();
+    function starPattern(){
+        for(i=0; i<5; i++){
+            console.log("*".repeat(i+1));
+        }
+    }
+    starPattern();
 //Exercise 2
     // function GCF(num1,num2){
     //     while(num2!=0){
