@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Application</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif; 
+            margin: 20px; 
+        }
+        .todo-item{
+            display: flex;
+            align-items: center;
+        }
+        .completed{ 
+            text-decoration: line-through; 
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>Todo List</h1>
+    <input type="text" id="todo-input" placeholder="Enter a new todo">
+    <button id="add-todo">Add Todo</button>
+    <ul id="todo-list"></ul>
+
+    <script src="todo.js"></script>
+</body>
+</html>
